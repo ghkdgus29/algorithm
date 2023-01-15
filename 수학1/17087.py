@@ -11,9 +11,10 @@ distance = []
 for younger_loc in youngers_loc:
     distance.append(abs(loc - younger_loc))
 
-current_gcd = distance[-1]
-distance.pop()
+current_gcd = distance.pop()
 
-while distance:
+while distance:                                        # 모든 거리들에 대해 gcd 반복
     current_gcd = gcd(current_gcd, distance.pop())
+
+print(current_gcd)
 

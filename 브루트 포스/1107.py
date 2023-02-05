@@ -1,56 +1,24 @@
-# import sys
-#
-# NOT_MATCHED = 500001
-#
-# def list2int(li: list):
-#     sum = 0
-#     digit = 1
-#     while li:
-#         sum += li.pop() * digit
-#         digit *= 10
-#     return sum
-#
-#
-# wanted_ch = int(input())
-# if int(input()) == 0:
-#     breakdown = []
-# else:
-#     breakdown = list(map(int, input().split()))
-#
-# current_ch = 100
-#
-# if current_ch == wanted_ch:
-#     print(0)
-#     sys.exit(0)
-#
-# want = list(map(int, str(wanted_ch)))
-# lower_moved = []
-# upper_moved = []
-#
-# if len(want) > abs(current_ch - wanted_ch):
-#     print(abs(current_ch - wanted_ch))
-#     sys.exit(0)
-#
-# push_count = len(want)
-#
-# for num in want:
-#     if num not in breakdown:
-#         lower_moved.append(num)
-#         upper_moved.append(num)
-#     else:
-#         lower_num = num
-#         while lower_num in breakdown:
-#             lower_num -= 1
-#         lower_moved.append(lower_num)
-#         if lower_num < 0:
-#             lower_moved.append(NOT_MATCHED)
-#
-#         upper_num = num
-#         while upper_num in breakdown:
-#             upper_num += 1
-#         upper_moved.append(upper_num)
-#         if upper_num > 9:
-#             upper_moved.append(NOT_MATCHED)
-#
-# push_count += min(abs(wanted_ch - list2int(lower_moved)), abs(wanted_ch - list2int(upper_moved)))
-# print(push_count)
+def possible(n):                    # 해당 번호로 숫자 버튼을 눌러 이동가능한지 확인
+    for digit in list(str(n)):
+        if digit in breakdown:
+            return False
+
+    return True
+
+
+wanted = int(input())
+if int(input()) == 0:
+    breakdown = []
+else:
+    breakdown = list(input().split())
+
+ans = wanted - 100
+if ans < 0:
+    ans = -ans
+
+for i in range(1000000):        # 0 ~ 100만의 숫자에 대해 모두 검사
+    if possible(i):
+        digit_moved_and_pushed = len(str(i)) + abs(i - wanted)
+        ans = min(ans, digit_moved_and_pushed)
+
+print(ans)

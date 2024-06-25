@@ -323,3 +323,8 @@
 - 16507번 어두운 건 무서워
 - 20440번 🎵니가 싫어 싫어 너무 싫어 싫어 오지 마 내게 찝쩍대지마🎵 - 1
 - 5875번 오타
+
+# 연결 리스트
+- 2.Add Two Numbers (LeetCode)
+- 19.Remove Nth Node From End of List (LeetCode)
+- 23.Merge k Sorted Lists (LeetCode)

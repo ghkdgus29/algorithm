@@ -29,6 +29,8 @@
 - 이진 검색 트리 (BST)
   - 7785번 회사에 있는 사람 (근데 걍 셋으로 품)
   - 1764번 듣보잡 (근데 걍 셋으로 품)
+- 21942번 부품 대여장
+
 
 ## 수학 1
 
@@ -325,6 +327,9 @@
 - 20440번 🎵니가 싫어 싫어 너무 싫어 싫어 오지 마 내게 찝쩍대지마🎵 - 1
 - 5875번 오타
 - 238.Product of Array Except Self (LeetCode)
+- 525.Contiguous Array (LeetCode)
+- 930.Binary Subarrays With Sum (LeetCode)
+- 1171.Remove Zero Sum Consecutive Nodes from Linked List (LeetCode)
 
 # 연결 리스트
 - 2.Add Two Numbers (LeetCode)
@@ -333,4 +338,10 @@
 - 24.Swap Nodes in Pairs (LeetCode)
 - 25.Reverse Nodes in k-Group (LeetCode)
 - 141.Linked List Cycle (LeetCode)
+- 142.Linked List Cycle II (LeetCode)
+- 876.Middle of the Linked List (LeetCode)
+- 1406번 에디터
+- 5397번 키로거
+- 23309번 철도 공사
+
 

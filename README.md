@@ -330,6 +330,9 @@
 - 525.Contiguous Array (LeetCode)
 - 930.Binary Subarrays With Sum (LeetCode)
 - 1171.Remove Zero Sum Consecutive Nodes from Linked List (LeetCode)
+- 1749번 점수따먹기
+- 1806번 부분합
+- 2003번 수들의 합 2
 
 # 연결 리스트
 - 2.Add Two Numbers (LeetCode)

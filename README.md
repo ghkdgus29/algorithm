@@ -336,6 +336,9 @@
 - 2015번 수들의 합 4
 - 2118번 두 개의 탑
 - 2143번 두 배열의 합
+- 2571번 색종이 - 3
+- 2485.Find the Pivot Integer (LeetCode)
+- 2435번 기상청 인턴 신현수
 
 # 연결 리스트
 - 2.Add Two Numbers (LeetCode)

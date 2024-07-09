@@ -339,6 +339,9 @@
 - 2571번 색종이 - 3
 - 2485.Find the Pivot Integer (LeetCode)
 - 2435번 기상청 인턴 신현수
+- 2616번 소형기관차
+- 3020번 개똥벌레
+- 3070.Count Submatrices with Top-Left Element and Sum Less Than k (LeetCode)
 
 # 연결 리스트
 - 2.Add Two Numbers (LeetCode)
